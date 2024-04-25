@@ -1,13 +1,13 @@
 ---
 layout: layouts/right
-title: Accordion
+title: Alert
 tags: patterns
 summary:
 
 ---
 
 ## Design 
-{% include 'patterns/accordion/accordion.html' %}
+{% include 'patterns/alert/alert.html' %}
 
 
 

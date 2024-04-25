@@ -7,7 +7,7 @@
         background-image: url(/assets/images/chevron-down_white.svg),linear-gradient(transparent,transparent);
       }
       &[aria-expanded='true']{
-        background-image: url(/assets/img/usa-icons/chevron-up_white.svg),linear-gradient(transparent,transparent);
+        background-image: url(/assets/images/chevron-up_white.svg),linear-gradient(transparent,transparent);
       }
     }
     .usa-accordion__button:hover{

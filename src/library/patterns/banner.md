@@ -1,13 +1,13 @@
 ---
 layout: layouts/right
-title: Accordion
+title: Banner
 tags: patterns
 summary:
 
 ---
 
 ## Design 
-{% include 'patterns/accordion/accordion.html' %}
+{% include 'patterns/banner/banner.html' %}
 
 
 

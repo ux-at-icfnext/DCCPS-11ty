@@ -1,13 +1,13 @@
 ---
 layout: layouts/right
-title: Accordion
+title: Back to Top
 tags: patterns
 summary:
 
 ---
 
 ## Design 
-{% include 'patterns/accordion/accordion.html' %}
+{% include 'patterns/back-to-top/back-to-top.html' %}
 
 
 

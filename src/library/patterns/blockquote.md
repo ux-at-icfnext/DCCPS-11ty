@@ -1,13 +1,13 @@
 ---
 layout: layouts/right
-title: Accordion
+title: Blockquote
 tags: patterns
 summary:
 
 ---
 
 ## Design 
-{% include 'patterns/accordion/accordion.html' %}
+{% include 'patterns/blockquote/blockquote.html' %}
 
 
 
