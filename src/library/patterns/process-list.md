@@ -1,17 +1,13 @@
 ---
 layout: layouts/right
-title: Footer
+title: Process List
 tags: patterns
 summary:
 
 ---
 
 ## Design 
-
-### Big Footer
-{% include 'patterns/footer/footer-big.md' %}
-
-
+{% include 'patterns/process-list/process-list.html' %}
 
 ## Theme Settings
 - $theme-footer-font-family - Font family of the footer.

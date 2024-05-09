@@ -1,17 +1,16 @@
 ---
 layout: layouts/right
-title: Footer
+title: Newsletter
 tags: patterns
 summary:
 
 ---
 
 ## Design 
+{% include 'patterns/newsletter/newsletter.html' %}
 
-### Big Footer
-{% include 'patterns/footer/footer-big.md' %}
-
-
+## Design 
+{% include 'patterns/newsletter/newsletter-is.html' %}
 
 ## Theme Settings
 - $theme-footer-font-family - Font family of the footer.

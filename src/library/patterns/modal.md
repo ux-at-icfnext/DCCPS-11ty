@@ -1,17 +1,16 @@
 ---
 layout: layouts/right
-title: Footer
+title: Modal
 tags: patterns
 summary:
 
 ---
 
 ## Design 
+{% include 'patterns/modal/modal.html' %}
 
-### Big Footer
-{% include 'patterns/footer/footer-big.md' %}
-
-
+## Design 
+{% include 'patterns/modal/modal-image.html' %}
 
 ## Theme Settings
 - $theme-footer-font-family - Font family of the footer.

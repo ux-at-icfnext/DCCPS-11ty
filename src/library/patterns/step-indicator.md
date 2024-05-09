@@ -1,17 +1,13 @@
 ---
 layout: layouts/right
-title: Footer
+title: Step Indicator
 tags: patterns
 summary:
 
 ---
 
 ## Design 
-
-### Big Footer
-{% include 'patterns/footer/footer-big.md' %}
-
-
+{% include 'patterns/step-indicator/step-indicator.html' %}
 
 ## Theme Settings
 - $theme-footer-font-family - Font family of the footer.

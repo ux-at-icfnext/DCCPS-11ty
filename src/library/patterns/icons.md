@@ -1,15 +1,13 @@
 ---
 layout: layouts/right
-title: Footer
+title: Icons
 tags: patterns
 summary:
 
 ---
 
 ## Design 
-
-### Big Footer
-{% include 'patterns/footer/footer-big.md' %}
+{% include 'patterns/icons/icons.html' %}
 
 
 

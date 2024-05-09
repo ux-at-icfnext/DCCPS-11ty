@@ -1,17 +1,13 @@
 ---
 layout: layouts/right
-title: Footer
+title: Range Slider
 tags: patterns
 summary:
 
 ---
 
 ## Design 
-
-### Big Footer
-{% include 'patterns/footer/footer-big.md' %}
-
-
+{% include 'patterns/range-slider/range-slider.html' %}
 
 ## Theme Settings
 - $theme-footer-font-family - Font family of the footer.

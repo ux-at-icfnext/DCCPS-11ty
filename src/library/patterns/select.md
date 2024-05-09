@@ -1,17 +1,13 @@
 ---
 layout: layouts/right
-title: Footer
+title: Select
 tags: patterns
 summary:
 
 ---
 
 ## Design 
-
-### Big Footer
-{% include 'patterns/footer/footer-big.md' %}
-
-
+{% include 'patterns/select/select.html' %}
 
 ## Theme Settings
 - $theme-footer-font-family - Font family of the footer.
