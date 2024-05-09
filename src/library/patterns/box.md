@@ -1,6 +1,6 @@
 ---
 layout: layouts/right
-title: Footer
+title: Box
 tags: patterns
 summary:
 
@@ -8,10 +8,35 @@ summary:
 
 ## Design 
 
-### Big Footer
-{% include 'patterns/footer/footer-big.md' %}
+{% include 'patterns/box/box-standard.html' %}
 
+{% include 'patterns/box/box-standard-blue.html' %}
 
+{% include 'patterns/box/box-standard-title.html' %}
+
+{% include 'patterns/box/box-standard-title-blue.html' %}
+
+{% include 'patterns/box/box-sidebar.html' %}
+
+{% include 'patterns/box/box-sidebar-image.html' %}
+
+{% include 'patterns/box/box-featured.html' %}
+
+{% include 'patterns/box/box-featured-small.html' %}
+
+{% include 'patterns/box/box-profile.html' %}
+
+{% include 'patterns/box/box-profile-small.html' %}
+
+{% include 'patterns/box/box-profile-circle.html' %}
+
+{% include 'patterns/box/box-sample-app.html' %}
+
+{% include 'patterns/box/box-blog.html' %}
+
+{% include 'patterns/box/box-monograph.html' %}
+
+{% include 'patterns/box/box-search.html' %}
 
 ## Theme Settings
 - $theme-footer-font-family - Font family of the footer.

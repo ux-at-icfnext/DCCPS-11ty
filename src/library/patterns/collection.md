@@ -1,15 +1,17 @@
 ---
 layout: layouts/right
-title: Footer
+title: Collection
 tags: patterns
 summary:
 
 ---
 
 ## Design 
+{% include 'patterns/collection/collection.html' %}
 
-### Big Footer
-{% include 'patterns/footer/footer-big.md' %}
+{% include 'patterns/collection/collection-animated.html' %}
+
+{% include 'patterns/collection/collection-event.html' %}
 
 
 

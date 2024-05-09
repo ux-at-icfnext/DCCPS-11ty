@@ -1,17 +1,13 @@
 ---
 layout: layouts/right
-title: Footer
+title: Pagination
 tags: patterns
 summary:
 
 ---
 
 ## Design 
-
-### Big Footer
-{% include 'patterns/footer/footer-big.md' %}
-
-
+{% include 'patterns/pagination/pagination.html' %}
 
 ## Theme Settings
 - $theme-footer-font-family - Font family of the footer.

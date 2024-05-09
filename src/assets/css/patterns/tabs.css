@@ -1,0 +1,64 @@
+.usa-accordion .usa-tabs {
+    font-family: "Source-Sans Pro", "Helvetica Nue", Arial, Helvetica, sans-serif;
+}
+.usa-accordion .usa-tabs span {
+    background-color: transparent;
+}
+.usa-accordion .usa-tabs span .usa-accordion__button {
+    background-color: white;
+    color: black;
+    padding-right: 2rem;
+    border-bottom-color: transparent;
+}
+.usa-accordion .usa-tabs span .usa-accordion__button[aria-expanded="true"] {
+    border: 4px solid lightgray;
+    border-bottom: none;
+    background-color: white;
+    color: black;
+    background-image: none;
+}
+.usa-accordion .usa-tabs span .usa-accordion__button[aria-expanded="false"] {
+    background-image: none;
+    background-color: transparent;
+    color: #2f70a8;
+}
+.usa-accordion .usa-tabs span .usa-accordion__button[aria-expanded="false"]:hover{
+    background-color: #2f70a8;
+    color: white;
+}
+.usa-accordion .usa-tabs .usa-accordion__content {
+    border: 4px solid lightgray;
+    padding: 0.5rem 1.25rem 0.75rem;
+}
+.usa-accordion .usa-tabs .usa-accordion__content[aria-hidden="false"] {
+    background-color: #fff;
+    margin-top: -2px;
+    border-top: none;
+}
+.usa-accordion .usa-tabs .usa-accordion__content span{
+    font-weight: bold;
+}
+
+@media screen and (min-width: 640px) {
+    .usa-accordion.usa-tabs {
+      width: auto;
+    }
+    .usa-accordion .usa-tabs span {
+        display: inline;
+        width: auto;
+    }
+   
+    .usa-accordion .usa-tabs span .usa-accordion__button {
+        width: auto;
+        display: inline-block;
+        clear: both;
+        margin-block: -0.25rem;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+    }
+    .usa-accordion .usa-tabs .usa-accordion__content {
+        float: left;
+        clear: both;
+        width: 100%;
+    }
+}

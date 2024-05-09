@@ -1,0 +1,230 @@
+.header-top{
+    background-color: white;
+}
+.usa-header--extended .usa-logo{
+    max-width: 100%;
+}
+.usa-nav__secondary{
+margin-bottom: 1rem;
+}
+.usa-nav__secondary .usa-search{
+    margin-bottom: 0.5rem;
+}
+.search-link{
+    color: #2f70a8;
+    text-decoration: underline;
+}
+.search-no-link .usa-search{
+    margin-bottom: 2.5rem;
+}
+.usa-nav{
+    background-color: #4c4f52;
+}
+.usa-nav-link span{
+    font-weight: 300;
+}
+.usa-nav__primary-item span{
+    font-weight: 300;
+}
+
+.usa-header--extended .usa-nav{
+    border-top: none;
+}
+.usa-nav__primary .current{
+    background-color: #3f3f3f;
+}
+
+.usa-nav__primary li:hover{
+    background-color: #3f3f3f;
+}
+
+.usa-nav__secondary{
+    bottom: 4.5rem;
+}
+.mobile-menu{
+    background-color: #4c4f52;
+    display: none;
+    width: 100%;
+}
+.mobile-menu .mobile-search{
+    float: right;
+}
+.mobile-menu .usa-menu-btn{
+    background-color: transparent;
+    margin-left: 0.5rem;
+}
+.mobile-menu .usa-menu-btn:hover{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1024px){
+    .usa-header .usa-nav__primary button[aria-expanded=false] span:after{
+        background: url(/assets/img/usa-icons/expand_more_white.svg) no-repeat center/contain;
+    }
+}
+
+@media screen and (max-width: 1023px) { 
+    .mobile-menu{ 
+      display: block; 
+    }
+    .usa-nav__secondary-links{
+        display: none;
+    }
+    .usa-logo img{
+        max-width: 75%;
+    }
+    .usa-header .usa-nav__primary button[aria-expanded=false] span:after{
+        background: url(/assets/img/usa-icons/expand_more__right_white.svg) no-repeat center/contain;
+    }
+    .usa-nav__primary button[aria-expanded=true] span:after{
+        background: url(/assets/img/usa-icons/expand_more_white.svg) no-repeat center/contain;
+    }
+    .usa-search input, button{
+        display: none;
+    } 
+    .usa-nav__primary .current{
+        background-color: #71767a;
+    }
+    .usa-nav__primary .current:hover{
+        background-color: #71767a;
+    }
+    .usa-nav__primary button:hover{
+        background-color: #71767a;
+    }
+}
+
+.usa-nav__primary button[aria-expanded=true]{
+    background-color: #005ea2;
+}
+
+.usa-nav__submenu{
+    background-color: #005ea2;
+}
+.usa-nav__submenu li:hover{
+    background-color: #1a4480;
+}
+
+.usa-nav__primary a:not(.usa-button):hover{
+    background-color: #71767a;
+}
+
+.usa-header span{
+    color: white;
+}
+
+.upper-header{
+    background-color: white;
+    padding-bottom: 2rem;
+}
+.upper-header .usa-navbar{
+    width: 100%;
+}
+    
+.upper-header .usa-search{
+    margin-bottom: 0.5rem;
+}
+
+
+.mega-menu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.mega-menu[hidden]{
+    display: none;
+}
+
+
+@media (min-width: 64em){
+    .mega-menu{
+        width: 30rem;
+    }
+}
+@media screen and (min-width: 1024px){
+    .usa-header .usa-nav__primary button[aria-expanded=false] span:after{
+        background: url(/assets/images/expand_more_white.svg) no-repeat center/contain;
+    }
+}
+@media screen and (max-width: 1023px) { 
+    .mobile-menu{ 
+      display: block; 
+    }
+    .usa-nav__secondary-links{
+        display: none;
+    }
+    .usa-logo img{
+         max-width: 75%;
+    }
+
+    .usa-header .usa-nav__primary button[aria-expanded=false] span:after{
+        background: url(/assets/images/expand_more__right_white.svg) no-repeat center/contain;
+    }
+    .usa-header .usa-nav__primary button[aria-expanded=true] span:after{
+        background: url(/assets/images/expand_more_white.svg) no-repeat center/contain;
+    }
+
+    .usa-search input, button{
+        display: none;
+    }
+
+
+    .usa-nav__primary .current{
+        background-color: #71767a;
+    }
+    .usa-nav__primary .current:hover{
+        background-color: #71767a;
+    }
+    .usa-nav__primary button:hover{
+        background-color: #71767a;
+    }
+
+    .usa-nav__primary button[aria-expanded=true]{
+        background-color: #005ea2;
+    }
+}
+.usa-nav__submenu{
+    background-color: #005ea2;
+}
+
+.usa-nav__submenu li:hover{
+    background-color: #1a4480;
+}
+
+.usa-nav__primary a:not(.usa-button):hover{
+    background-color: #71767a;
+}
+
+.usa-header span{
+    color: white;
+}
+
+.usa-header a{
+    color: #005ea2;
+}
+
+.upper-header{
+    background-color: white;
+    padding-bottom: 2rem;
+}
+.upper-header .usa-navbar{
+    width: 100%;
+}
+    
+.upper-header .usa-search{
+    margin-bottom: 0.5rem;
+}
+
+
+.mega-menu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.mega-menu[hidden]{
+    display: none;
+}
+
+
+@media (min-width: 64em){
+    .mega-menu{
+        width: 30rem;
+    }
+}

@@ -1,17 +1,19 @@
 ---
 layout: layouts/right
-title: Footer
+title: Tables
 tags: patterns
 summary:
 
 ---
 
 ## Design 
+{% include 'patterns/tables/table.html' %}
 
-### Big Footer
-{% include 'patterns/footer/footer-big.md' %}
+## Design 
+{% include 'patterns/tables/event-table.html' %}
 
-
+## Design 
+{% include 'patterns/tables/table-multi.html' %}
 
 ## Theme Settings
 - $theme-footer-font-family - Font family of the footer.

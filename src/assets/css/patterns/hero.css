@@ -1,0 +1,148 @@
+.usa-hero {
+    background: url(/assets/images/hero-bg-texture-od.jpg) no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: Lora, serif;
+}
+.usa-hero .usa-hero__callout {
+    padding: 0;
+}
+.usa-hero .hero-image{
+    background-image: url(/assets/images/hero-bg-image-od-A.jpg);
+    max-width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.usa-hero .usa-hero__heading{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.usa-hero .usa-button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.text-img-container::after{
+    background: linear-gradient(to left, transparent 0%, 
+    rgba(0, 27, 55, 0.028) 11.9%, rgba(0, 27, 55, 0.104) 22.5%, 
+    rgba(0, 27, 55, 0.216) 32.2%, rgba(0, 27, 55, 0.352) 41.2%, 
+    rgba(0, 27, 55, 0.5) 50%, rgba(0, 27, 55, 0.648) 58.8%, 
+    rgba(0, 27, 55, 0.784) 67.8%, rgba(0, 27, 55, 0.896) 77.5%, 
+    rgba(0, 27, 55, 0.972) 88.1%, #001b37 100%);
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100%;
+    transform: scaleX(-1);
+}
+.hero-landing .usa-hero__callout{
+    max-width: 30rem;
+}
+.hero-landing .hero-image img{
+    top: 40px;
+    height: 100%;
+    right: 0%;
+}
+.text-img-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 8rem;
+}
+.hero-btns{
+    margin-top: 1rem;
+}
+.hero-btns .share-page{
+    color: white;
+    font-size: 1rem;
+}
+.hero-btns .share-page .fa-solid{
+    margin-left: 0.5rem;
+}
+
+.hero-links{
+    display: flex;
+    margin-bottom: 20px;
+}
+.hero-links img{
+    width: 32px;
+    height: 32px;
+    margin: 10px;
+}
+
+.brp-hero .hero-image{
+    background-image: url(/assets/images/hero-bg-image-brp.jpg);
+}
+
+.is-hero .hero-image{
+    background-image: url(/assets/images/hero-bg-image-is.jpg);
+}
+
+.ocs-hero .hero-image{
+    background-image: url(/assets/images/hero-bg-image-ocs.jpg);
+}
+
+.hd-hero .hero-image{
+    background-image: url(/assets/images/hero-bg-image-hd-E.jpg);
+}
+
+.ocs-media-btn{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    min-width: 188px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 1rem;
+}
+.ocs-media-btn::before{
+    background-image: url(/assets/icons/in-the-media-icon-2x.png);
+    background-repeat: no-repeat;
+    background-size: 32px 34px;
+    background-position: center;
+    content: '';
+    position: relative;
+    display: inline-block;
+    width: 32px;
+    height: 34px;
+    margin-right: 0.75rem;
+}
+.ocs-stories-btn{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    min-width: 188px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 1rem;
+}
+.ocs-stories-btn::before{
+    background-image: url(/assets/icons/ocs-survivor-stories-2x.png);
+    background-repeat: no-repeat;
+    background-size: 32px 34px;
+    background-position: center;
+    content: '';
+    position: relative;
+    display: inline-block;
+    width: 32px;
+    height: 34px;
+    margin-right: 0.75rem;
+}

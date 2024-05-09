@@ -1,15 +1,13 @@
 ---
 layout: layouts/right
-title: Footer
+title: Date Picker
 tags: patterns
 summary:
 
 ---
 
 ## Design 
-
-### Big Footer
-{% include 'patterns/footer/footer-big.md' %}
+{% include 'patterns/date-picker/date-picker.html' %}
 
 
 
