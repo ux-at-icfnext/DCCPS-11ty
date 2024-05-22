@@ -1,0 +1,12 @@
+h1, h2, h4, p{
+    font-family: 'Montserrat';
+}
+.usa-prose h1{
+    font-family: 'Montserrat';
+}
+.usa-prose h2{
+    font-family: 'Montserrat';
+}
+.usa-footer--big .usa-footer__primary-link{
+    font-family: 'Montserrat';
+}

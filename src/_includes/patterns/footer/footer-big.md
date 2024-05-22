@@ -16,22 +16,30 @@
                 <section
                   class="usa-footer__primary-content usa-footer__primary-content--collapsible"
                 >
-                  <h4 class="usa-footer__primary-link">&lt;Topic&gt;</h4>
+                  <h4 class="usa-footer__primary-link">Program Areas</h4>
                   <ul class="usa-list usa-list--unstyled">
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">&lt;Secondary link&gt;</a>
+                      <a href="javascript:void(0);">Behavioral Research</a>
                     </li>
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">&lt;Secondary link&gt;</a>
+                      <a href="javascript:void(0);">Epidemiology & Genomics</a>
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a href="javascript:void(0);">Healthcare Delivery</a>
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a href="javascript:void(0);">Health Disparities & Health Equity</a>
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a href="javascript:void(0);">Implementation Science</a>
                     </li>
                     <li class="usa-footer__secondary-link">
                       <a href="javascript:void(0);"
-                        >&lt;Secondary link that&#039;s a bit longer than most
-                        of the others&gt;</a
+                        >Surveillance</a
                       >
                     </li>
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">&lt;Secondary link&gt;</a>
+                      <a href="javascript:void(0);">Survivorship</a>
                     </li>
                   </ul>
                 </section>
@@ -40,21 +48,63 @@
                 <section
                   class="usa-footer__primary-content usa-footer__primary-content--collapsible"
                 >
-                  <h4 class="usa-footer__primary-link">&lt;Topic&gt;</h4>
+                  <h4 class="usa-footer__primary-link">Follow</h4>
                   <ul class="usa-list usa-list--unstyled">
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">&lt;Secondary link&gt;</a>
+                      <a class="usa-social-link" href="javascript:void(0);"
+                      >
+                        <img
+                          class="usa-social-link__icon"
+                          src="/assets/img/usa-icons/linkedin--white.svg"
+                          alt="LinkedIn"
+                        />
+                      </a>
+                      <a class="usa-social-link" href="javascript:void(0);"
+                      >
+                        <img
+                        class="usa-social-link__icon"
+                        src="/assets/img/usa-icons/x--white.svg"
+                        alt="Facebook"
+                      />
+                      </a>
+                    </li>
+                  </ul>
+                  <h4 class="usa-footer__primary-link">Resources</h4>
+                  <ul class="usa-list usa-list--unstyled">
+                    <li class="usa-footer__secondary-link">
+                      <a href="javascript:void(0);">Contact Us</a>
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a href="javascript:void(0);">Publications</a>
                     </li>
                     <li class="usa-footer__secondary-link">
                       <a href="javascript:void(0);"
-                        >&lt;Secondary link that&#039;s pretty long&gt;</a
+                        >Find a Clinical Trial</a
                       >
                     </li>
+                  </ul>
+                </section>
+              </div>
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
+                <section
+                  class="usa-footer__primary-content usa-footer__primary-content--collapsible"
+                >
+                  <h4 class="usa-footer__primary-link">Policies</h4>
+                  <ul class="usa-list usa-list--unstyled">
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">&lt;Secondary link&gt;</a>
+                      <a href="javascript:void(0);">Accessibility</a>
                     </li>
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">&lt;Secondary link&gt;</a>
+                      <a href="javascript:void(0);">FOIA</a>
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a href="javascript:void(0);">Privacy & Security</a>
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a href="javascript:void(0);">Disclaimers</a>
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a href="javascript:void(0);">Vulnerability Disclaimer</a>
                     </li>
                   </ul>
                 </section>
@@ -63,58 +113,25 @@
                 <section
                   class="usa-footer__primary-content usa-footer__primary-content--collapsible"
                 >
-                  <h4 class="usa-footer__primary-link">&lt;Topic&gt;</h4>
+                  <h4 class="usa-footer__primary-link"></h4>
                   <ul class="usa-list usa-list--unstyled">
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">&lt;Secondary link&gt;</a>
+                      <a href="javascript:void(0);">US Department of Health and Human Services</a>
                     </li>
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">&lt;Secondary link&gt;</a>
+                      <a href="javascript:void(0);">National Institutes of Health</a>
                     </li>
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">&lt;Secondary link&gt;</a>
+                      <a href="javascript:void(0);">National Cancer Institute</a>
                     </li>
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">&lt;Secondary link&gt;</a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
-                <section
-                  class="usa-footer__primary-content usa-footer__primary-content--collapsible"
-                >
-                  <h4 class="usa-footer__primary-link">&lt;Topic&gt;</h4>
-                  <ul class="usa-list usa-list--unstyled">
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">&lt;Secondary link&gt;</a>
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">&lt;Secondary link&gt;</a>
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">&lt;Secondary link&gt;</a>
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">&lt;Secondary link&gt;</a>
+                      <a href="javascript:void(0);">USA.gov</a>
                     </li>
                   </ul>
                 </section>
               </div>
             </div>
           </nav>
-        </div>
-        <div class="tablet:grid-col-4">
-          <div class="usa-sign-up">
-            <h3 class="usa-sign-up__heading">Sign up</h3>
-            <form class="usa-form">
-              <label class="usa-label" for="email" id=""
-                >Your email address</label
-              >
-              <input class="usa-input" id="email" name="email" type="email" />
-              <button class="usa-button" type="submit">Sign up</button>
-            </form>
-          </div>
         </div>
       </div>
     </div>
@@ -126,58 +143,20 @@
           class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2"
         >
           <div class="mobile-lg:grid-col-auto">
-            <img class="usa-footer__logo-img" src="/assets/img/logo-img.png" alt="" />
-          </div>
-          <div class="mobile-lg:grid-col-auto">
-            <p class="usa-footer__logo-heading">&lt;Name of Agency&gt;</p>
+            <p class="usa-footer__logo-heading">National Cancer Insitute</p>
+            <span>at the National Institutes of Health</span>
           </div>
         </div>
         <div class="usa-footer__contact-links mobile-lg:grid-col-6">
           <div class="usa-footer__social-links grid-row grid-gap-1">
-            <div class="grid-col-auto">
-              <a class="usa-social-link" href="javascript:void(0);"
-                ><img
-                  class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/facebook.svg"
-                  alt="Facebook"
-              /></a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link" href="javascript:void(0);"
-                ><img
-                  class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/twitter.svg"
-                  alt="Twitter"
-              /></a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link" href="javascript:void(0);"
-                ><img
-                  class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/youtube.svg"
-                  alt="YouTube"
-              /></a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link" href="javascript:void(0);"
-                ><img
-                  class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/instagram.svg"
-                  alt="Instagram"
-              /></a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link" href="javascript:void(0);"
-                ><img
-                  class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/rss_feed.svg"
-                  alt="RSS"
-              /></a>
-            </div>
           </div>
           <p class="usa-footer__contact-heading">
-            &lt;Agency Contact Center&gt;
+            Contact Us
           </p>
+          <span>Live Chat</span>
+          <span>1-800-4-CANCER</span>
+          <span>NCIinfo@nih.gov</span>
+          <span>Site Feedback</span>
           <address class="usa-footer__address">
             <div class="usa-footer__contact-info grid-row grid-gap">
               <div class="grid-col-auto">

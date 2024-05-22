@@ -7,12 +7,16 @@
 }
 .usa-footer__primary-section h4{
     color: white;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
 }
 .usa-footer__secondary-link a:visited{
     color: white;
 }
 .usa-footer__secondary-link a{
     color: white;
+    text-decoration: none;
+    font-weight: 200;
 }
 .usa-footer__secondary-section{
     background-color: #0A1F33;
@@ -20,4 +24,21 @@
 }
 .usa-social-link:hover{
     background-color: transparent;
+}
+.usa-footer__contact-links span{
+    margin-left: 1rem;
+    font-weight: 200;
+}
+.usa-social-link{
+    border: solid white 2px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+.usa-social-link__icon{
+    padding: 0.3rem;
+}
+@mmedia(min-width: 40em){
+    .usa-footer .grid-row .tablet:grid-col-8{
+        width: 100%;
+    }
 }

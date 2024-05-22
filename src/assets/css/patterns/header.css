@@ -1,6 +1,9 @@
 .header-top{
     background-color: white;
 }
+.usa-logo img{
+    height: 40px;
+}
 .usa-header--extended .usa-logo{
     max-width: 100%;
 }
@@ -39,7 +42,7 @@ margin-bottom: 1rem;
 }
 
 .usa-nav__secondary{
-    bottom: 4.5rem;
+    bottom: 2.5rem;
 }
 .mobile-menu{
     background-color: #4c4f52;
