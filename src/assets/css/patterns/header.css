@@ -1,12 +1,16 @@
 @media (min-width: 64em){
     .usa-logo img{
-        height: 50px;
+        height: 100%;
+    }
+    .usa-nav__primary .usa-accordion__button span{
+        padding-right: 1rem;
     }
 }
 
 .usa-nav__secondary .search-link{
     color: #2f70a8;
     text-decoration: underline;
+    margin-top: 0.5rem;
 }
 
 .usa-nav{
@@ -21,6 +25,16 @@
 .usa-nav__primary .usa-nav__primary-item a{
     color: white;
     font-weight: 200;
+}
+
+.usa-nav__primary .usa-nav__primary-item a:hover{
+    background-color: #71767a;
+    color: white;
+}
+
+.usa-nav__primary .usa-current{
+    background-color: #71767a;
+    color: white;
 }
 
 .mobile-menu{
@@ -38,10 +52,15 @@
 }
 .usa-menu-btn:hover{
     cursor: pointer;
+    background-color: #71767a;
 }
 .usa-nav__primary button{
     color: white;
     font-weight: 200;
+}
+.usa-nav__primary button:hover{
+    background-color: #71767a;
+    color: white;
 }
 @media(max-width: 1023px){
     .usa-header .usa-nav__primary button[aria-expanded=false] span:after{
@@ -61,5 +80,11 @@
     }
     .usa-nav__primary a:not(.usa-button):not(.usa-current){
         color: white;
+    }
+    .usa-nav__primary a:not(.usa-button):not(.usa-current):hover{
+        color: white;
+    }
+    .usa-nav__secondary .search-link{
+        display: none;
     }
 }

@@ -1,3 +1,9 @@
 .landing-content{
     margin-top: 1rem;
 }
+.usa-in-page-nav a{
+    text-decoration: none;
+}
+.usa-in-page-nav__list a:not(.usa-button).usa-current:after{
+    background-color: #005ea2;
+}
