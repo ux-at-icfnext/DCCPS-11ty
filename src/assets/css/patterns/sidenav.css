@@ -4,3 +4,23 @@
 .sidenav-container nav{
     border: 1px solid #dcdee0;
 }
+
+.usa-sidenav a{
+    font-family: 'Montserrat';
+}
+
+.usa-sidenav a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+.usa-sidenav a:not(.usa-button):not(.usa-current):hover{
+    color: black;
+    font-weight: bold;
+}
+
+.usa-sidenav .usa-current{
+    color: black;
+    font-weight: 600;
+    background-color: #f0f0f0;
+}
