@@ -4,7 +4,9 @@
 .sidenav-container nav{
     border: 1px solid #dcdee0;
 }
-
+.sidenav-container h3{
+    display: none;
+}
 .usa-sidenav a{
     font-family: 'Montserrat';
 }

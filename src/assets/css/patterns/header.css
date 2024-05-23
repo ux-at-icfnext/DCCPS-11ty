@@ -7,6 +7,14 @@
     }
 }
 
+.usa-header .usa-nav__primary button[aria-expanded=true] span:after{
+    background: url(/assets/img/usa-icons/expand_less_white.svg) no-repeat center/contain;
+}
+
+.usa-header .usa-nav__primary button[aria-expanded=false] span:after{
+    background: url(/assets/img/usa-icons/expand_more_white.svg) no-repeat center/contain;
+}
+
 .usa-nav__secondary .search-link{
     color: #2f70a8;
     text-decoration: underline;
@@ -32,9 +40,21 @@
     color: white;
 }
 
+#home-link:hover{
+    background-color: #71767a;
+}
+
 .usa-nav__primary .usa-current{
     background-color: #71767a;
     color: white;
+}
+
+.usa-nav__submenu{
+    background-color: #2f70a8;
+}
+
+.usa-nav__primary .usa-nav__primary-item a:hover{
+    background-color: #1a4480;
 }
 
 .mobile-menu{
