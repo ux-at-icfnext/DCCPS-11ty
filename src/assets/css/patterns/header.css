@@ -5,6 +5,9 @@
     .usa-nav__primary .usa-accordion__button span{
         padding-right: 1rem;
     }
+    .usa-header--extended .usa-logo{
+        max-width: 45%;
+    }
 }
 
 .usa-header .usa-nav__primary button[aria-expanded=true] span:after{
@@ -81,6 +84,9 @@
 .usa-nav__primary button:hover{
     background-color: #71767a;
     color: white;
+}
+.search-with-banner .usa-search[role=search], .usa-search [role=search], .usa-search[role=search]>div{
+    margin-bottom: 3rem;
 }
 @media(max-width: 1023px){
     .usa-header .usa-nav__primary button[aria-expanded=false] span:after{

@@ -8,13 +8,26 @@ summary:
 
 ## Design
 
-### Default Header
-{% include 'patterns/header/header.md' %}
-
 ### OD Header
 {% include 'patterns/header/header-od.html' %}
 
+### BRP Header
+{% include 'patterns/header/header-brp.html' %}
 
+### BGRP Header
+{% include 'patterns/header/header-egrp.html' %}
+
+### HDRP Header
+{% include 'patterns/header/header-hdrp.html' %}
+
+### IS Header
+{% include 'patterns/header/header-is.html' %}
+
+### OCS Header
+{% include 'patterns/header/header-ocs.html' %}
+
+### Srp Header
+{% include 'patterns/header/header-srp.html' %}
 
 Please note that mega menus were not added to the library. Even though this pattern exist in the USWDS, megamenus have usability and accessiblity issues. They are also becoming old fashion. See more about this from [NNGroup](https://www.nngroup.com/articles/mega-menus-work-well/). However, if the solution for you web properity needs a mega menu, the code and specifications can be found on the [header spec](https://designsystem.digital.gov/components/header/) for the USDWS.  
 
