@@ -59,7 +59,13 @@
 .usa-nav__primary .usa-nav__primary-item a:hover{
     background-color: #1a4480;
 }
-
+.mobile-nav-banner{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.title-banner{
+    max-width: 100%;
+}
 .mobile-menu{
     background-color: #4c4f52;
     width: 100%;
