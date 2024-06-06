@@ -9,7 +9,7 @@ title: Prototype
 _page still in progress_
 
 <ul>
-  <a href="/library/prototype/landing">Landing Page Template</a>
+  <a href="/library/prototype/landing">Topic Details Page Template</a>
 </ul>
 
 </div>

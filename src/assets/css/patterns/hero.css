@@ -11,13 +11,13 @@
     padding: 0;
 }
 .usa-hero .hero-image{
-    background-image: url(/assets/images/hero-bg-image-od-A.jpg);
-    height: 100%;
+    background-image: url(/assets/images/Pure_black_screen.png);
+    height: auto;
     overflow: hidden;
     top: 0;
     right: 0;
     z-index: 1;
-    width: 100%;
+    max-width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -38,19 +38,13 @@
     border: 1px solid white;
 }
 .text-img-container::after{
-    background: linear-gradient(to left, transparent 0%, 
-    rgba(0, 27, 55, 0.028) 11.9%, rgba(0, 27, 55, 0.104) 22.5%, 
-    rgba(0, 27, 55, 0.216) 32.2%, rgba(0, 27, 55, 0.352) 41.2%, 
-    rgba(0, 27, 55, 0.5) 50%, rgba(0, 27, 55, 0.648) 58.8%, 
-    rgba(0, 27, 55, 0.784) 67.8%, rgba(0, 27, 55, 0.896) 77.5%, 
-    rgba(0, 27, 55, 0.972) 88.1%, #001b37 100%);
+    background: #4bbfc6;
     content: '';
     position: absolute;
     top: 0;
-    right: 0;
-    width: 400px;
+    right: 70px;
+    width: 550px;
     height: 100%;
-    transform: scaleX(-1);
 }
 .hero-landing .usa-hero__callout{
     max-width: 30rem;
@@ -62,8 +56,8 @@
 }
 .text-img-container{
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    gap: 8rem;
+    grid-template-columns: 2fr 3fr;
+    gap: 6rem;
 }
 .hero-btns{
     margin-top: 1rem;
@@ -95,7 +89,7 @@
 }
 
 .brp-hero .hero-image{
-    background-image: url(/assets/images/hero-bg-image-brp.jpg);
+    background-image: url(/assets/images/Pure_black_screen.png);
 }
 
 .is-hero .hero-image{
