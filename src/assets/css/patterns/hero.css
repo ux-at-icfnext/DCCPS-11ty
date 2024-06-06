@@ -12,16 +12,20 @@
 }
 .usa-hero .hero-image{
     background-image: url(/assets/images/hero-bg-image-od-A.jpg);
-    max-width: 50%;
     height: 100%;
     overflow: hidden;
-    position: absolute;
     top: 0;
     right: 0;
     z-index: 1;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.hero-hr{
+    width: 50%;
+    float: left;
+    border-color: #4bbfc6;
+    border-width: 2px;
 }
 .usa-hero .usa-hero__heading{
     font-family: Montserrat;
@@ -63,6 +67,7 @@
 }
 .hero-btns{
     margin-top: 1rem;
+    clear: left;
 }
 .hero-btns .share-page{
     color: white;
@@ -72,14 +77,21 @@
     margin-left: 0.5rem;
 }
 
-.hero-links{
+.hero-socials{
     display: flex;
     margin-bottom: 20px;
+    padding-top: 1rem;
 }
-.hero-links img{
+.hero-socials img{
     width: 32px;
     height: 32px;
     margin: 10px;
+}
+.hero-socials span{
+    width: 50%;
+}
+.hero-socials a{
+    text-decoration: underline;
 }
 
 .brp-hero .hero-image{
