@@ -1,7 +1,8 @@
 ---
-layout: layouts/landing
-title: Landing Page
+layout: layouts/ocs
+title: OCS Template
 tags: templates
+hero: ocs
 ---
 
 <h2>Subheading One</h2>

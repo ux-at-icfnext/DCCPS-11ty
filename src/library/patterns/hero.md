@@ -8,16 +8,7 @@ summary:
 
 ## Design
 ### OD Header
-{% include 'patterns/hero/hero-ocs.html' %}
-
-### BRP header
-{% include 'patterns/hero/hero-brp.html' %}
-
-### HDRP header
-{% include 'patterns/hero/hero-hd.html' %}
-
-### IS header
-{% include 'patterns/hero/hero-is.html' %}
+{% include 'patterns/hero/hero-od.html' %}
 
 Please note that mega menus were not added to the library. Even though this pattern exist in the USWDS, megamenus have usability and accessiblity issues. They are also becoming old fashion. See more about this from [NNGroup](https://www.nngroup.com/articles/mega-menus-work-well/). However, if the solution for you web properity needs a mega menu, the code and specifications can be found on the [header spec](https://designsystem.digital.gov/components/header/) for the USDWS.  
 

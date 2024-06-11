@@ -1,5 +1,5 @@
 .usa-hero {
-    background: url(/assets/images/hero-bg-texture-od.jpg) no-repeat;
+    background: #14315c;
     background-size: cover;
     z-index: 1;
     overflow: hidden;
@@ -92,63 +92,61 @@
     background-image: url(/assets/images/Pure_black_screen.png);
 }
 
+.brp-hero .text-img-container::after{
+    background: #007bbd;
+}
+
+.brp-hero .hero-hr{
+    border-color: #007bbd;
+}
+.egrp-hero .text-img-container::after{
+    background: #ddaa01;
+}
+
+.egrp-hero .hero-hr{
+    border-color: #ddaa01;
+}
+
+.hd-hero .text-img-container::after{
+    background: #d24600;
+}
+
+.hd-hero .hero-hr{
+    border-color: #d24600;
+}
+
+.is-hero .text-img-container::after{
+    background: #6b187f;
+}
+
+.is-hero .hero-hr{
+    border-color: #6b187f;
+}
+
+.srp-hero .text-img-container::after{
+    background: #008a00;
+}
+
+.srp-hero .hero-hr{
+    border-color: #008a00;
+}
+
+.ocs-hero .text-img-container::after{
+    background: #0c809c;
+}
+
+.ocs-hero .hero-hr{
+    border-color: #0c809c;
+}
+
 .is-hero .hero-image{
-    background-image: url(/assets/images/hero-bg-image-is.jpg);
+    background-image: url(/assets/images/Pure_black_screen.png);
 }
 
 .ocs-hero .hero-image{
-    background-image: url(/assets/images/hero-bg-image-ocs.jpg);
+    background-image: url(/assets/images/Pure_black_screen.png);
 }
 
 .hd-hero .hero-image{
-    background-image: url(/assets/images/hero-bg-image-hd-E.jpg);
-}
-
-.ocs-media-btn{
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    letter-spacing: 0.02em;
-    min-width: 188px;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: center;
-    vertical-align: middle;
-    margin-left: 1rem;
-}
-.ocs-media-btn::before{
-    background-image: url(/assets/icons/in-the-media-icon-2x.png);
-    background-repeat: no-repeat;
-    background-size: 32px 34px;
-    background-position: center;
-    content: '';
-    position: relative;
-    display: inline-block;
-    width: 32px;
-    height: 34px;
-    margin-right: 0.75rem;
-}
-.ocs-stories-btn{
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    letter-spacing: 0.02em;
-    min-width: 188px;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: center;
-    vertical-align: middle;
-    margin-left: 1rem;
-}
-.ocs-stories-btn::before{
-    background-image: url(/assets/icons/ocs-survivor-stories-2x.png);
-    background-repeat: no-repeat;
-    background-size: 32px 34px;
-    background-position: center;
-    content: '';
-    position: relative;
-    display: inline-block;
-    width: 32px;
-    height: 34px;
-    margin-right: 0.75rem;
+    background-image: url(/assets/images/Pure_black_screen.png);
 }
