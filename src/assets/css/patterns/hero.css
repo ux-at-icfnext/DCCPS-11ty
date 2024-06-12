@@ -67,6 +67,9 @@
     color: white;
     font-size: 1rem;
 }
+.share-page a{
+    color: white;
+}
 .hero-btns .share-page .fa-solid{
     margin-left: 0.5rem;
 }
