@@ -7,3 +7,18 @@
 .usa-in-page-nav__list a:not(.usa-button).usa-current:after{
     background-color: #005ea2;
 }
+.sidenav{
+    display: block;
+    float: left;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    padding-right: 0;
+    padding-left: 2rem;
+    width: 15rem;
+}
+.main-content{
+    margin-top: 2rem;
+}
+.usa-in-page-nav{
+    margin-top: 1.25rem;
+}

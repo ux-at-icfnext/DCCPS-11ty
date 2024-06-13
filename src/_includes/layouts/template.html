@@ -1,0 +1,51 @@
+---
+search:
+  button: small
+---
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/assets/uswds/js/uswds-init.min.js" async></script>
+    <script src="/assets/js/prism.js" async></script>
+    <link rel="stylesheet" type ="text/css" href="/assets/css/styles.css"></link>
+    <link rel="stylesheet" type ="text/css" href="/assets/css/prototype/article.css"></link>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/71dbd15dc2.css" crossorigin="anonymous">
+    <link rel="stylesheet" type ="text/css" href="/assets/css/prism.css" data-noprefix></link>
+    <link rel="stylesheet" type ="text/css" href="/assets/css/next.css" data-noprefix></link>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type ="text/css" href="/assets/css/type.css"></link>
+    <title>{{ title }} - {{ settings.sitename }}</title>
+    </head>
+    <body>
+        {% include 'patterns/header/header-od.html' %}
+        {% include 'patterns/hero/hero-od.html' %}
+        <div class="default-container">
+            <aside class="sidenav">
+                {% include 'patterns/sidenav/sidenav.html' %}
+            </aside>
+            <div class="usa-in-page-nav-container">
+                <aside
+                    class="usa-in-page-nav"
+                    data-title-text="ON THIS PAGE"
+                    data-title-heading-level="h2"
+                    data-scroll-offset="0"
+                    data-root-margin="0px 0px 0px 0px"
+                    data-threshold="0"
+                >
+                </aside>
+                <main id="main-content" class="main-content usa-prose">
+                    {{ content}}
+                </main>
+            </div>
+        </div>
+        {% include 'patterns/footer/footer-big.md' %}
+        <script src="{{site.baseurl}}/assets/uswds/js/uswds.min.js"></script>
+        <script src="{{site.baseurl}}/assets/js/copy_to_clipboard.js"></script>
+        <script src="{{site.baseurl}}/assets/js/nav_mobile.js"></script>
+        <script src="{{site.baseurl}}/assets/js/template_img.js"></script>
+        <script src="{{site.baseurl}}/assets/js/theme_mode.js"></script>
+        <script src="{{site.baseurl}}/assets/js/cms.js"></script>
+    </body>
+</html>

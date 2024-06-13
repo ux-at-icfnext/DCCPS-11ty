@@ -1,5 +1,5 @@
 ---
-layout: layouts/article
+layout: layouts/template
 title: Article Page
 tags: templates
 ---
