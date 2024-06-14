@@ -7,6 +7,12 @@
 .usa-in-page-nav__list a:not(.usa-button).usa-current:after{
     background-color: #005ea2;
 }
+.usa-in-page-nav__list .usa-current{
+    font-weight: 600;
+}
+.usa-in-page-nav__item{
+    font-weight: 600;
+}
 .sidenav{
     display: block;
     float: left;
