@@ -10,6 +10,20 @@
 .usa-hero .usa-hero__callout {
     padding: 0;
 }
+.hd-hero .hero-text-container .hero-callout{
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.636;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.hd-hero .hero-text-container{
+    min-height: 475px;
+    padding: 75px 20px 75px 0px;
+    z-index: 10;
+}
 .usa-hero .hero-image{
     background-image: url(/assets/images/Pure_black_screen.png);
     height: auto;
@@ -37,57 +51,81 @@
     color: white;
     border: 1px solid white;
 }
-.text-img-container::after{
-    background: #4bbfc6;
+
+
+.hd-hero .hero-bg-image-wrapper {
+    background-image: linear-gradient(to right, transparent 10%, rgb(210, 70, 0) 10%, rgb(210, 70, 0) 90%, transparent 90%);
+    padding: 3rem 0;
+}
+.hd-hero .hero-image {
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.hd-hero .hero-image::before {
     content: '';
     position: absolute;
     top: 0;
-    right: 70px;
-    width: 550px;
+    left: 0;
+    width: 400px;
     height: 100%;
+    transform: scaleX(-1);
 }
+.hd-hero .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+
 .hero-landing .usa-hero__callout{
     max-width: 30rem;
 }
-.hero-landing .hero-image img{
-    top: 40px;
-    height: 100%;
-    right: 0%;
-}
-.text-img-container{
+
+.hd-hero .hero-content .hero-col{
     display: grid;
     grid-template-columns: 2fr 3fr;
     gap: 6rem;
+    min-height: 475px;
 }
-.hero-btns{
+.hero-socials{
     margin-top: 1rem;
     clear: left;
 }
-.hero-btns .share-page{
+.hero-socials .share-page{
     color: white;
     font-size: 1rem;
 }
 .share-page a{
     color: white;
 }
-.hero-btns .share-page .fa-solid{
+.hero-socials .share-page .fa-solid{
     margin-left: 0.5rem;
 }
 
-.hero-socials{
+.hero-social-links-wrapper{
     display: flex;
-    margin-bottom: 20px;
-    padding-top: 1rem;
 }
-.hero-socials img{
+.hero-social-links img{
     width: 32px;
     height: 32px;
     margin: 10px;
 }
-.hero-socials span{
+.hero-social-links .share-page{
     width: 50%;
 }
-.hero-socials a{
+.hero-social-links a{
     text-decoration: underline;
 }
 
@@ -110,7 +148,7 @@
     border-color: #ddaa01;
 }
 
-.hd-hero .text-img-container::after{
+.hd-hero .hero-text-container::after{
     background: #d24600;
 }
 
@@ -153,3 +191,4 @@
 .hd-hero .hero-image{
     background-image: url(/assets/images/Pure_black_screen.png);
 }
+
