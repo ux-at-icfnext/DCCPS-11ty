@@ -3,11 +3,10 @@
     background-size: cover;
     z-index: 1;
     overflow: hidden;
-    width: 100%;
     margin-bottom: 20px;
     font-family: Lora, serif;
 }
-.hd-hero .hero-text-container .hero-callout{
+.usa-hero .hero-text-container .hero-callout{
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, "sans-serif";
     font-size: 22px;
     font-weight: 300;
@@ -16,7 +15,7 @@
     margin-bottom: 5px;
 }
 
-.hd-hero .hero-text-container{
+.usa-hero .hero-text-container{
     min-height: 475px;
     padding: 75px 20px 75px 0px;
     z-index: 10;
@@ -45,11 +44,39 @@
 }
 
 
-.hd-hero .hero-bg-image-wrapper {
-    background-image: linear-gradient(to right, transparent 10%, rgb(210, 70, 0) 10%, rgb(210, 70, 0) 90%, transparent 90%);
+.usa-hero .hero-bg-image-wrapper {
     padding: 3rem 0;
 }
-.hd-hero .hero-image {
+
+.od-hero .hero-bg-image-wrapper{
+    background-image: linear-gradient(to right, transparent 10%, rgb(75, 191, 198) 10%, rgb(75, 191, 198) 90%, transparent 90%);
+}
+
+.hd-hero .hero-bg-image-wrapper{
+    background-image: linear-gradient(to right, transparent 10%, rgb(210, 70, 0) 10%, rgb(210, 70, 0) 90%, transparent 90%);
+}
+
+.is-hero .hero-bg-image-wrapper{
+    background-image: linear-gradient(to right, transparent 10%, rgb(107, 24, 127) 10%, rgb(107, 24, 127) 90%, transparent 90%);
+}
+
+.brp-hero .hero-bg-image-wrapper{
+    background-image: linear-gradient(to right, transparent 10%, rgb(0, 123, 189) 10%, rgb(0, 123, 189) 90%, transparent 90%);
+}
+
+.egrp-hero .hero-bg-image-wrapper{
+    background-image: linear-gradient(to right, transparent 10%, rgb(221, 170, 1) 10%, rgb(221, 170, 1) 90%, transparent 90%);
+}
+
+.srp-hero .hero-bg-image-wrapper{
+    background-image: linear-gradient(to right, transparent 10%, rgb(0, 138, 0) 10%, rgb(0, 138, 0) 90%, transparent 90%);
+}
+
+.ocs-hero .hero-bg-image-wrapper{
+    background-image: linear-gradient(to right, transparent 10%, rgb(12, 128, 156) 10%, rgb(12, 128, 156) 90%, transparent 90%);
+}
+
+.usa-hero .hero-image {
     height: 100%;
     overflow: hidden;
     top: 0;
@@ -59,7 +86,7 @@
     background-position: top;
     background-repeat: no-repeat;
 }
-.hd-hero .hero-image::before {
+.usa-hero .hero-image::before {
     content: '';
     position: absolute;
     top: 0;
@@ -68,7 +95,7 @@
     height: 100%;
     transform: scaleX(-1);
 }
-.hd-hero .sr-only {
+.usa-hero .sr-only {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -80,7 +107,7 @@
     border: 0;
 }
 
-.hd-hero .hero-content .hero-col{
+.usa-hero .hero-content .hero-col{
     display: grid;
     grid-template-columns: 2fr 3fr;
     gap: 2rem;
