@@ -1,0 +1,9 @@
+.usa-card__header{
+    background-color: #14315c;
+}
+.usa-card__header h4{
+    color: white;
+}
+.usa-card__media--inset{
+    margin-top: 1rem;
+}
