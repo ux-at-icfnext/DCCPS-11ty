@@ -1,4 +1,8 @@
 .usa-accordion__button{
   background-position: left;
-  padding: 1rem 3.5rem 1rem 3.25rem;
+  background-size: 2.5rem;
+  padding: 1rem 3.5rem 1rem 4.25rem;
+}
+.usa-accordion__button[aria-expanded=false]{
+  background-size: 2.5rem;
 }
