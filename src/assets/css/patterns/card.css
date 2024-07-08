@@ -3,6 +3,7 @@
 }
 .usa-card__header h4{
     color: white;
+    font-family: 'Montserrat';
 }
 .usa-card__media--inset{
     margin-top: 1rem;
