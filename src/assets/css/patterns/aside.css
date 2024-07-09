@@ -1,0 +1,10 @@
+.usa-summary-box{
+    background-color: #f7f7f7;
+    border-color: #dcdee0;
+}
+.usa-summary-box__link{
+    color: #005ea2;
+}
+.usa-summary-box__link:visited{
+    color: #005ea2;
+}
