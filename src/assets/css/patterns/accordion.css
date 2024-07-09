@@ -2,7 +2,15 @@
   background-position: left;
   background-size: 2.5rem;
   padding: 1rem 3.5rem 1rem 4.25rem;
+  color: #005ea2;
+  font-weight: 500;
 }
 .usa-accordion__button[aria-expanded=false]{
   background-size: 2.5rem;
+}
+.usa-accordion__heading, .usa-prose .usa-accordion__heading{
+  font-family: 'Montserrat';
+}
+.usa-accordion .usa-prose{
+  font-family: 'Montserrat';
 }
