@@ -3,8 +3,9 @@ blockquote{
     padding-left: 10px;
     margin-top: 30px;
     margin-bottom: 10px;
-    font-family: 'Lora';
+    font-family: 'Merriweather';
     font-size: 21px;
+    font-style: italic;
 }
 blockquote ul{
     font-size: 14px;
@@ -20,4 +21,19 @@ blockquote ul li:before {
     content: '\2014';
     position: absolute;
     margin-left: -20px;
+}
+.speaker{
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 13.7px;
+}
+.large-blockquote{
+    font-size: 24px;
+}
+.standard-blockquote{
+    font-size: 20px;
+}
+.small-blockquote{
+    font-size: 15.7px;
 }

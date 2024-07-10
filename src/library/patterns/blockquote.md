@@ -7,7 +7,15 @@ summary:
 ---
 
 ## Design 
-{% include 'patterns/blockquote/blockquote.html' %}
+
+### Large Blockquote
+{% include 'patterns/blockquote/blockquote-large.html' %}
+
+### Standard Blockquote
+{% include 'patterns/blockquote/blockquote-standard.html' %}
+
+### Small Blockquote
+{% include 'patterns/blockquote/blockquote-small.html' %}
 
 
 

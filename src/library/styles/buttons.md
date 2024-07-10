@@ -65,105 +65,16 @@ accent-cool:
     text: unstyled
     class: usa-button--unstyled
 
-accent-warm:
-  - link: "/"
-    text: default
-    class: usa-button--accent-warm
-  - link: "/"
-    text: hover
-    class: usa-button--hover usa-button--accent-warm
-  - link: "/"
-    text: active
-    class: usa-button--active usa-button--accent-warm
-  - link: "/"
-    text: focus
-    class: usa-focus usa-button--accent-warm
-  - link: "/"
-    text: disabled
-    class: usa-button--disabled usa-button--accent-warm
-    disabled: true
-  - link: "/"
-    text: unstyled
-    class: usa-button--unstyled
-
-base:
-  - link: "/"
-    text: default
-    class: usa-button--base
-  - link: "/"
-    text: hover
-    class: usa-button--hover usa-button--base
-  - link: "/"
-    text: active
-    class: usa-button--active usa-button--base
-  - link: "/"
-    text: focus
-    class: usa-focus usa-button--base
-  - link: "/"
-    text: disabled
-    class: usa-button--disabled usa-button--base
-    disabled: true
-  - link: "/"
-    text: unstyled
-    class: usa-button--unstyled
-
-outline:
-  - link: "/"
-    text: default
-    class: usa-button--outline
-  - link: "/"
-    text: hover
-    class: usa-button--hover usa-button--outline
-  - link: "/"
-    text: active
-    class: usa-button--active usa-button--outline
-  - link: "/"
-    text: focus
-    class: usa-focus usa-button--outline
-  - link: "/"
-    text: disabled
-    class: usa-button--disabled usa-button--outline
-    disabled: true
-  - link: "/"
-    text: unstyled
-    class: usa-button--unstyled
-
 inverse:
   - link: "/"
     text: default
-    class: usa-button--outline usa-button--inverse
+    class: usa-button
   - link: "/"
     text: hover
-    class: usa-button--hover usa-button--outline usa-button--inverse
+    class: usa-button--secondary
   - link: "/"
     text: active
-    class: usa-button--active usa-button--outline usa-button--inverse
-  - link: "/"
-    text: focus
-    class: usa-focus usa-button--outline usa-button--inverse
-  - link: "/"
-    text: disabled
-    class: usa-button--disabled usa-button--outline usa-button--inverse
-    disabled: true
-  - link: "/"
-    text: unstyled
-    class: usa-button--unstyled usa-button--outline usa-button--inverse
-
-big:
-  - link: "/"
-    text: default
-    class: usa-button--big
-  - link: "/"
-    text: disabled
-    class: usa-button--big
-    disabled: true
-  - link: "/"
-    text: aria-disabled
-    class: usa-button--big
-    aria-disabled: true
-  - link: "/"
-    text: unstyled
-    class: usa-button--unstyled usa-button--big
+    class: usa-button--accent-cool
 
 btn-group:
   set:
@@ -197,31 +108,15 @@ spit-assigned-group: |
 {% assign button = secondary %}
 {% include "patterns/button/button.md" %}
 
-### Accent Cool 
+### Accent 
 {% assign button = accent-cool %}
 {% include "patterns/button/button.md" %}
 
-### Accent Warm 
-{% assign button = accent-warm %}
-{% include "patterns/button/button.md" %}
-
-### Base 
-{% assign button = base %}
-{% include "patterns/button/button.md" %}
-
-### Outline 
-{% assign button = outline %}
-{% include "patterns/button/button.md" %}
-
 ### Inverse 
-<div style="background-color: #000000; padding: 10px;">
+<div style="background-color: #14315c; padding: 10px;">
 {% assign button = inverse %}
 {% include "patterns/button/button.md" %}
 </div>
-
-### Big 
-{% assign button = big %}
-{% include "patterns/button/button.md" %}
 
 ## Theme Settings
 - $theme-button-font-family - Font family of the button.
