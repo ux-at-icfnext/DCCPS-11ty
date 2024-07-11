@@ -7,8 +7,14 @@ summary:
 ---
 
 ## Design 
-{% include 'patterns/alert/alert.html' %}
-
+{% include 'patterns/alert/alert-info.html' %}
+{% include 'patterns/alert/alert-warning.html' %}
+{% include 'patterns/alert/alert-success.html' %}
+{% include 'patterns/alert/alert-error.html' %}
+{% include 'patterns/alert/alert-info-slim.html' %}
+{% include 'patterns/alert/alert-warning-slim.html' %}
+{% include 'patterns/alert/alert-success-slim.html' %}
+{% include 'patterns/alert/alert-error-slim.html' %}
 
 
 ## Theme Settings
