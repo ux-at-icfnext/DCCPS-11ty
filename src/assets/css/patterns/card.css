@@ -8,3 +8,10 @@
 .usa-card__media--inset{
     margin-top: 1rem;
 }
+.usa-card .full-link-card{
+    text-decoration: none;
+}
+.usa-card .full-link-card:hover .usa-card__body{
+    background-color: #1a4480;
+    color: white;
+}

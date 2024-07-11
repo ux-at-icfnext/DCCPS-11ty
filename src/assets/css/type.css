@@ -12,19 +12,19 @@
     --fs-xl: clamp(2.25rem, calc(1.75rem + 2.4rem), 3.5rem);
 }
 h1, h2, h4, p{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica , Roboto, Arial, sans-serif;
 }
 .usa-prose h1{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica , Roboto, Arial, sans-serif;
     font-size: var(--fs-900);
     font-weight: 800;
 }
 .usa-prose h2{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica , Roboto, Arial, sans-serif;
     font-size: var(--fs-700);
     font-weight: 800;
 }
 .usa-footer--big .usa-footer__primary-link{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica , Roboto, Arial, sans-serif;
 }
 
