@@ -23,15 +23,7 @@ search-big:
 
 ## Design
 Default search
-{% include 'patterns/search/search.md' %}
-
-Search small
-{% assign search = search-small %}
-{% include 'patterns/search/search.md' %}
-
-Search big
-{% assign search = search-big %}
-{% include 'patterns/search/search.md' %}
+{% include 'patterns/search/search.html' %}
 
 ## Theme Settings
 These aspects of the search can be set within the theme settings.

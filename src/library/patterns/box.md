@@ -18,6 +18,8 @@ summary:
 
 {% include 'patterns/box/box-sidebar.html' %}
 
+{% include 'patterns/box/box-sidebar-funding.html' %}
+
 {% include 'patterns/box/box-sidebar-image.html' %}
 
 {% include 'patterns/box/box-featured.html' %}
