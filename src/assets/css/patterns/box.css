@@ -268,6 +268,31 @@
 .box .btn-group .btn-external {
     border-left: 1px solid #00bde3;
 }
+
+.box-profile-lg, .box-profile-md, .box-profile-sm {
+    position: relative;
+}
+
+@media (min-width: 576px) {
+    .order-sm-2 {
+        order: 2 !important;
+    }
+}
+
+.box .box-content-area .staff-title, .box .box-content-area .affiliation, .box-alt .box-content-area .staff-title, .box-alt .box-content-area .affiliation {
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 0.875rem;
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    color: #272727;
+}
+
+.box .box-profile-md p {
+    max-width: 90ex;
+}
 /* Global */
 
 .box-component .usa-card__container{
